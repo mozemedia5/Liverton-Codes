@@ -59,6 +59,15 @@ module.exports = {
       boxShadow: {
         xs: "0 1px 2px 0 rgb(0 0 0 / 0.05)",
       },
+      zIndex: {
+        0: "0",
+        5: "5",
+        10: "10",
+        20: "20",
+        30: "30",
+        40: "40",
+        50: "50",
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },

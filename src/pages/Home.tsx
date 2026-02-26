@@ -124,10 +124,10 @@ const Home = () => {
         />
 
         {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-background/0 via-background/50 to-background z-10" />
+        <div className="absolute inset-0 bg-gradient-to-b from-background/0 via-transparent to-transparent z-5" />
 
         {/* Hero Content */}
-        <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div className="relative z-30 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="inline-flex items-center space-x-2 px-4 py-2 rounded-full bg-indigo-500/10 border border-indigo-500/20 mb-8 animate-fade-in">
             <Sparkles className="w-4 h-4 text-indigo-400" />
             <span className="text-sm text-indigo-400 font-medium">Welcome to the Future of Software</span>
@@ -169,7 +169,7 @@ const Home = () => {
         </div>
 
         {/* Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20 animate-bounce">
+        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-30 animate-bounce">
           <div className="w-6 h-10 rounded-full border-2 border-muted-foreground/30 flex items-start justify-center p-2">
             <div className="w-1 h-2 bg-muted-foreground/50 rounded-full animate-pulse" />
           </div>
