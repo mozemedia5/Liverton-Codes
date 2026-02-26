@@ -116,7 +116,7 @@ const Home = () => {
   return (
     <div className="relative">
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
         {/* Particle Canvas */}
         <canvas
           ref={canvasRef}
