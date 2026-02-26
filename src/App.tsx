@@ -11,10 +11,7 @@ import Contact from './pages/Contact';
 import Order from './pages/Order';
 import Donation from './pages/Donation';
 import DataAnalysis from './pages/DataAnalysis';
-import AdminLogin from './admin/AdminLogin';
-import AdminDashboard from './admin/AdminDashboard';
-import AdminOrders from './admin/AdminOrders';
-import AdminAnalytics from './admin/AdminAnalytics';
+
 import './App.css';
 
 function App() {
@@ -38,12 +35,6 @@ function App() {
     <Router>
       <div className="min-h-screen bg-background text-foreground">
         <Routes>
-          {/* Admin Routes - No Navigation/Footer */}
-          <Route path="/admin" element={<AdminLogin />} />
-          <Route path="/admin/dashboard" element={<AdminDashboard />} />
-          <Route path="/admin/orders" element={<AdminOrders />} />
-          <Route path="/admin/analytics" element={<AdminAnalytics />} />
-          
           {/* Public Routes - With Navigation/Footer */}
           <Route path="*" element={
             <>
